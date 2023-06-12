@@ -3,8 +3,6 @@ import { AuthContext, useAuth } from './AuthProvider';
 import { useRouter } from 'next/navigation';
 
 const PrivateRoute = (Component) => {
-    // const { user, loading } = useContext(AuthContext);
-
     return function PrivateRoute(props) {
         const auth = useContext(AuthContext);
         const router = useRouter();
@@ -13,7 +11,6 @@ const PrivateRoute = (Component) => {
         }
         return <Component auth={auth} {...props} />
     }
-
 };
 
 export default PrivateRoute;
