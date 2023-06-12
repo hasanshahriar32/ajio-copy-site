@@ -12,10 +12,10 @@ import Image from 'next/image';
 class Header extends Component {
     render() {
         return (
-            <div className='sm:mt-2 lg:-mt-6' >
+            <div className='sm:mt-2 lg:-mt-6 lg:h-[650px] h-36' >
                 <Carousel>
                     <div >
-                        <Image width={800} height={800} className='lg:h-[640px]  object-contain ' src="https://assets.ajio.com/cms/AJIO/WEB/01062023-UHP-Mainbanner-D-5090.gif" alt='' />
+                        <Image width={800} height={800} className='lg:h-[640px]  object-contain' src="https://assets.ajio.com/cms/AJIO/WEB/01062023-UHP-Mainbanner-D-5090.gif" alt='' />
                         {/* <p className="legend">Legend 1</p> */}
                     </div>
                     <div>
