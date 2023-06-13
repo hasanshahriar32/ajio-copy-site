@@ -1,7 +1,576 @@
 self.__RSC_MANIFEST={
-  "ssrModuleMapping": {},
+  "ssrModuleMapping": {
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "*",
+        "chunks": [
+          "webpack:static/chunks/webpack.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "",
+        "chunks": [
+          "webpack:static/chunks/webpack.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "default",
+        "chunks": [
+          "webpack:static/chunks/webpack.js"
+        ],
+        "async": false
+      },
+      "getServerActionDispatcher": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "getServerActionDispatcher",
+        "chunks": [
+          "webpack:static/chunks/webpack.js"
+        ],
+        "async": false
+      },
+      "urlToUrlWithoutFlightMarker": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "urlToUrlWithoutFlightMarker",
+        "chunks": [
+          "webpack:static/chunks/webpack.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "*",
+        "chunks": [
+          "webpack:static/chunks/webpack.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "",
+        "chunks": [
+          "webpack:static/chunks/webpack.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "default",
+        "chunks": [
+          "webpack:static/chunks/webpack.js"
+        ],
+        "async": false
+      },
+      "ErrorBoundaryHandler": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "ErrorBoundaryHandler",
+        "chunks": [
+          "webpack:static/chunks/webpack.js"
+        ],
+        "async": false
+      },
+      "ErrorBoundary": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "ErrorBoundary",
+        "chunks": [
+          "webpack:static/chunks/webpack.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+        "name": "*",
+        "chunks": [
+          "webpack:static/chunks/webpack.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+        "name": "",
+        "chunks": [
+          "webpack:static/chunks/webpack.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+        "name": "default",
+        "chunks": [
+          "webpack:static/chunks/webpack.js"
+        ],
+        "async": false
+      },
+      "RedirectErrorBoundary": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+        "name": "RedirectErrorBoundary",
+        "chunks": [
+          "webpack:static/chunks/webpack.js"
+        ],
+        "async": false
+      },
+      "RedirectBoundary": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+        "name": "RedirectBoundary",
+        "chunks": [
+          "webpack:static/chunks/webpack.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+        "name": "*",
+        "chunks": [
+          "webpack:static/chunks/webpack.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+        "name": "",
+        "chunks": [
+          "webpack:static/chunks/webpack.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+        "name": "default",
+        "chunks": [
+          "webpack:static/chunks/webpack.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:static/chunks/app-client-internals.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:static/chunks/app-client-internals.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:static/chunks/app-client-internals.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:static/chunks/app-client-internals.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:static/chunks/app-client-internals.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:static/chunks/app-client-internals.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:static/chunks/app-client-internals.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:static/chunks/app-client-internals.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:static/chunks/app-client-internals.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [
+          "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [
+          "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [
+          "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/pages/men/page:static/chunks/app/pages/men/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/pages/men/page:static/chunks/app/pages/men/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/pages/men/page:static/chunks/app/pages/men/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "*",
+        "chunks": [
+          "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "",
+        "chunks": [
+          "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "default",
+        "chunks": [
+          "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+        ],
+        "async": false
+      },
+      "defaultHead": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "defaultHead",
+        "chunks": [
+          "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/pages/men/productdetails/page.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/pages/men/productdetails/page.jsx",
+        "name": "*",
+        "chunks": [
+          "app/pages/men/productdetails/page:static/chunks/app/pages/men/productdetails/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/pages/men/productdetails/page.jsx",
+        "name": "",
+        "chunks": [
+          "app/pages/men/productdetails/page:static/chunks/app/pages/men/productdetails/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/pages/men/productdetails/page.jsx",
+        "name": "default",
+        "chunks": [
+          "app/pages/men/productdetails/page:static/chunks/app/pages/men/productdetails/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/component/NavBar/NavBar.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/component/NavBar/NavBar.jsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/component/NavBar/NavBar.jsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/component/NavBar/NavBar.jsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/share/AuthProvider.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/share/AuthProvider.jsx",
+        "name": "*",
+        "chunks": [
+          "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/share/AuthProvider.jsx",
+        "name": "",
+        "chunks": [
+          "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+        ],
+        "async": false
+      },
+      "AuthContext": {
+        "id": "(sc_client)/./src/app/share/AuthProvider.jsx",
+        "name": "AuthContext",
+        "chunks": [
+          "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/share/AuthProvider.jsx",
+        "name": "default",
+        "chunks": [
+          "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/component/Home/Header/Header.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/component/Home/Header/Header.jsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/component/Home/Header/Header.jsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/component/Home/Header/Header.jsx",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/component/Home/products/page.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/component/Home/products/page.jsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/component/Home/products/page.jsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/component/Home/products/page.jsx",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/component/MenProduct/MenProduct.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/component/MenProduct/MenProduct.jsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/component/MenProduct/MenProduct.jsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/component/MenProduct/MenProduct.jsx",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/component/MenPageCerusecl/MenPageCerusecl.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/component/MenPageCerusecl/MenPageCerusecl.jsx",
+        "name": "*",
+        "chunks": [
+          "app/pages/men/page:static/chunks/app/pages/men/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/component/MenPageCerusecl/MenPageCerusecl.jsx",
+        "name": "",
+        "chunks": [
+          "app/pages/men/page:static/chunks/app/pages/men/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/component/MenPageCerusecl/MenPageCerusecl.jsx",
+        "name": "default",
+        "chunks": [
+          "app/pages/men/page:static/chunks/app/pages/men/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/component/MenPageHeader/MenPageHeader.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/component/MenPageHeader/MenPageHeader.jsx",
+        "name": "*",
+        "chunks": [
+          "app/pages/men/page:static/chunks/app/pages/men/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/component/MenPageHeader/MenPageHeader.jsx",
+        "name": "",
+        "chunks": [
+          "app/pages/men/page:static/chunks/app/pages/men/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/component/MenPageHeader/MenPageHeader.jsx",
+        "name": "default",
+        "chunks": [
+          "app/pages/men/page:static/chunks/app/pages/men/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/pages/men/productdetails/[id]/page.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/pages/men/productdetails/[id]/page.jsx",
+        "name": "*",
+        "chunks": [
+          "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/pages/men/productdetails/[id]/page.jsx",
+        "name": "",
+        "chunks": [
+          "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/pages/men/productdetails/[id]/page.jsx",
+        "name": "default",
+        "chunks": [
+          "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+        ],
+        "async": false
+      }
+    }
+  },
   "edgeSSRModuleMapping": {},
-  "cssFiles": {},
+  "cssFiles": {
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\layout": [
+      "static/css/app/layout.css"
+    ],
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\page": [
+      "static/css/app/page.css"
+    ],
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\pages\\men\\page": [
+      "static/css/app/pages/men/page.css"
+    ]
+  },
   "clientModules": {
     "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
@@ -528,6 +1097,564 @@ self.__RSC_MANIFEST={
       "name": "useServerInsertedHTML",
       "chunks": [
         "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\client\\image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\esm\\client\\image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\client\\image.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\esm\\client\\image.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\client\\image.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\esm\\client\\image.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/pages/men/page:static/chunks/app/pages/men/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\esm\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/pages/men/page:static/chunks/app/pages/men/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\client\\link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/pages/men/page:static/chunks/app/pages/men/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\esm\\client\\link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/pages/men/page:static/chunks/app/pages/men/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\client\\link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/pages/men/page:static/chunks/app/pages/men/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/pages/men/page:static/chunks/app/pages/men/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\shared\\lib\\head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\shared\\lib\\head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\shared\\lib\\head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\shared\\lib\\head.js#defaultHead": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "defaultHead",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#defaultHead": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "defaultHead",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\pages\\men\\productdetails\\page.jsx": {
+      "id": "(app-client)/./src/app/pages/men/productdetails/page.jsx",
+      "name": "*",
+      "chunks": [
+        "app/pages/men/productdetails/page:static/chunks/app/pages/men/productdetails/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\pages\\men\\productdetails\\page.jsx#": {
+      "id": "(app-client)/./src/app/pages/men/productdetails/page.jsx",
+      "name": "",
+      "chunks": [
+        "app/pages/men/productdetails/page:static/chunks/app/pages/men/productdetails/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\pages\\men\\productdetails\\page.jsx#default": {
+      "id": "(app-client)/./src/app/pages/men/productdetails/page.jsx",
+      "name": "default",
+      "chunks": [
+        "app/pages/men/productdetails/page:static/chunks/app/pages/men/productdetails/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\component\\NavBar\\NavBar.jsx": {
+      "id": "(app-client)/./src/app/component/NavBar/NavBar.jsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\component\\NavBar\\NavBar.jsx#": {
+      "id": "(app-client)/./src/app/component/NavBar/NavBar.jsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\component\\NavBar\\NavBar.jsx#default": {
+      "id": "(app-client)/./src/app/component/NavBar/NavBar.jsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\share\\AuthProvider.jsx": {
+      "id": "(app-client)/./src/app/share/AuthProvider.jsx",
+      "name": "*",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\share\\AuthProvider.jsx#": {
+      "id": "(app-client)/./src/app/share/AuthProvider.jsx",
+      "name": "",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\share\\AuthProvider.jsx#AuthContext": {
+      "id": "(app-client)/./src/app/share/AuthProvider.jsx",
+      "name": "AuthContext",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\share\\AuthProvider.jsx#default": {
+      "id": "(app-client)/./src/app/share/AuthProvider.jsx",
+      "name": "default",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\@splidejs\\react-splide\\dist\\css\\splide.min.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css",
+        "static/css/app/pages/men/page.css"
+      ]
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\node_modules\\react-responsive-carousel\\lib\\styles\\carousel.min.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css",
+        "static/css/app/pages/men/page.css"
+      ]
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\component\\Home\\Header\\Header.jsx": {
+      "id": "(app-client)/./src/app/component/Home/Header/Header.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\component\\Home\\Header\\Header.jsx#": {
+      "id": "(app-client)/./src/app/component/Home/Header/Header.jsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\component\\Home\\Header\\Header.jsx#default": {
+      "id": "(app-client)/./src/app/component/Home/Header/Header.jsx",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\component\\Home\\products\\page.jsx": {
+      "id": "(app-client)/./src/app/component/Home/products/page.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\component\\Home\\products\\page.jsx#": {
+      "id": "(app-client)/./src/app/component/Home/products/page.jsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\component\\Home\\products\\page.jsx#default": {
+      "id": "(app-client)/./src/app/component/Home/products/page.jsx",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\component\\MenProduct\\MenProduct.jsx": {
+      "id": "(app-client)/./src/app/component/MenProduct/MenProduct.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\component\\MenProduct\\MenProduct.jsx#": {
+      "id": "(app-client)/./src/app/component/MenProduct/MenProduct.jsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\component\\MenProduct\\MenProduct.jsx#default": {
+      "id": "(app-client)/./src/app/component/MenProduct/MenProduct.jsx",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\component\\MenPageCerusecl\\MenPageCerusecl.jsx": {
+      "id": "(app-client)/./src/app/component/MenPageCerusecl/MenPageCerusecl.jsx",
+      "name": "*",
+      "chunks": [
+        "app/pages/men/page:static/chunks/app/pages/men/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\component\\MenPageCerusecl\\MenPageCerusecl.jsx#": {
+      "id": "(app-client)/./src/app/component/MenPageCerusecl/MenPageCerusecl.jsx",
+      "name": "",
+      "chunks": [
+        "app/pages/men/page:static/chunks/app/pages/men/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\component\\MenPageCerusecl\\MenPageCerusecl.jsx#default": {
+      "id": "(app-client)/./src/app/component/MenPageCerusecl/MenPageCerusecl.jsx",
+      "name": "default",
+      "chunks": [
+        "app/pages/men/page:static/chunks/app/pages/men/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\component\\MenPageHeader\\MenPageHeader.jsx": {
+      "id": "(app-client)/./src/app/component/MenPageHeader/MenPageHeader.jsx",
+      "name": "*",
+      "chunks": [
+        "app/pages/men/page:static/chunks/app/pages/men/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\component\\MenPageHeader\\MenPageHeader.jsx#": {
+      "id": "(app-client)/./src/app/component/MenPageHeader/MenPageHeader.jsx",
+      "name": "",
+      "chunks": [
+        "app/pages/men/page:static/chunks/app/pages/men/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\component\\MenPageHeader\\MenPageHeader.jsx#default": {
+      "id": "(app-client)/./src/app/component/MenPageHeader/MenPageHeader.jsx",
+      "name": "default",
+      "chunks": [
+        "app/pages/men/page:static/chunks/app/pages/men/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\pages\\men\\productdetails\\[id]\\page.jsx": {
+      "id": "(app-client)/./src/app/pages/men/productdetails/[id]/page.jsx",
+      "name": "*",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\pages\\men\\productdetails\\[id]\\page.jsx#": {
+      "id": "(app-client)/./src/app/pages/men/productdetails/[id]/page.jsx",
+      "name": "",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Boot_Camp_JobTask\\nextjs-project\\ajlo\\src\\app\\pages\\men\\productdetails\\[id]\\page.jsx#default": {
+      "id": "(app-client)/./src/app/pages/men/productdetails/[id]/page.jsx",
+      "name": "default",
+      "chunks": [
+        "app/pages/men/productdetails/[id]/page:static/chunks/app/pages/men/productdetails/[id]/page.js"
       ],
       "async": false
     }

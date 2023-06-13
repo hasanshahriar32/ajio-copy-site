@@ -28,9 +28,9 @@ const ProductItem = () => {
 
                     {data.slice(0, 7).map(item => {
                         return (
-                            <div key={item.id}>
+                            <>
                                 <SplideSlide>
-                                    <Link href="/pages/men/productdetails" className="block ml-1 group motion-safe:hover:scale-110">
+                                    <Link href="/pages/men/productdetails" key={item?.id} className="block ml-1 group motion-safe:hover:scale-110">
                                         <Image width={500} height={500}
                                             src={item.url}
                                             alt=""
@@ -38,7 +38,7 @@ const ProductItem = () => {
                                         />
                                     </Link>
                                 </SplideSlide>
-                            </div>
+                            </>
 
 
 
@@ -62,9 +62,10 @@ const ProductItem = () => {
 
                     {data.slice(7, 14).map(item => {
                         return (
-                            <div key={item.id}>
+
+                            <>
                                 <SplideSlide>
-                                    <Link href="/pages/men/productdetails" className="block group motion-safe:hover:scale-110 ">
+                                    <Link key={item.id} href="/pages/men/productdetails" className="block group motion-safe:hover:scale-110 ">
                                         <Image width={500} height={500}
                                             src={item.url}
                                             alt=""
@@ -72,7 +73,8 @@ const ProductItem = () => {
                                         />
                                     </Link>
                                 </SplideSlide>
-                            </div>
+                            </>
+
 
 
 
