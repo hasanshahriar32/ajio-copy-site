@@ -19,12 +19,6 @@ const Register = () => {
         p2: false
     });
 
-    useEffect(() => {
-        location.pathname.includes("login") && setState("login")
-        location.pathname.includes("register") && setState("register")
-    }), [state, location.pathname, show.p1, show.p2]
-
-
 
     const handleRegisterAtion = (data) => {
         const { username, password, email, } = (data);
@@ -54,7 +48,7 @@ const Register = () => {
                     <div className="flex items-center justify-center mt-6 duration-300">
 
 
-                        <button className={`w-1/3 pb-4 duration-200 ease-linear  transition-all font-medium text-center text-gray-800 capitalize ${state === 'register' && 'border-b-2 border-blue-500'} `}>
+                        <button className={`w-1/3 pb-4 duration-200 ease-linear  transition-all font-medium text-center text-gray-800 capitalize border-b-2 border-blue-500 `}>
                             sign up
                         </button>
                     </div>
@@ -130,8 +124,12 @@ const Register = () => {
 
                         <div className="mt-6">
 
-                            {/* <PrimaryButton full>Sign up</PrimaryButton> */}
-                            <button>sign up</button>
+                            <div
+                                className="inline-block text-center  w-full rounded border border-current px-8 py-3 uppercase font-serif text-xl text-indigo-600 transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:text-indigo-500"
+
+                            >
+                                sign up
+                            </div>
 
                             <div className="mt-6 text-center ">
                                 <Link href="/pages/login" className="text-lg font-serif text-blue-500 hover:underline dark:text-blue-400">

@@ -15,6 +15,7 @@ class MenPageHeader extends Component {
         return (
             <div className='sm:mt-2 lg:-mt-8 lg:h-[650px] h-36' >
                 <Marquee
+                    speed={250}
                     pauseOnHover={true}
                     gradient={false}
                     className="flex my-20 cursor-pointer"

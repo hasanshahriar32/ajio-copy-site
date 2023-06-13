@@ -26,23 +26,25 @@ const ProductItem = () => {
                 }}>
 
 
-                    {data.slice(0,7).map(item => {
+                    {data.slice(0, 7).map(item => {
                         return (
-                            <SplideSlide  >
-                                <Link href="/pages/men/productdetails" key={item.id} class="block ml-1 group motion-safe:hover:scale-110">
-                                    <Image width={500} height={500}
-                                        src={item.url}
-                                        alt=""
-                                        className="h-[350px] w-full object-contain sm:h-[450px]"
-                                    />
-                                </Link>
-                            </SplideSlide>
+                            <div key={item.id}>
+                                <SplideSlide>
+                                    <Link href="/pages/men/productdetails" className="block ml-1 group motion-safe:hover:scale-110">
+                                        <Image width={500} height={500}
+                                            src={item.url}
+                                            alt=""
+                                            className="h-[350px] w-full object-contain sm:h-[450px]"
+                                        />
+                                    </Link>
+                                </SplideSlide>
+                            </div>
 
 
 
                         )
                     })}
-                   
+
 
                 </Splide>
                 <br />
@@ -58,25 +60,27 @@ const ProductItem = () => {
                 }}>
 
 
-                    {data.slice(7,14).map(item => {
+                    {data.slice(7, 14).map(item => {
                         return (
-                            <SplideSlide  >
-                                <Link href="/pages/men/productdetails" key={item.id} class="block group motion-safe:hover:scale-110 ">
-                                    <Image width={500} height={500}
-                                        src={item.url}
-                                        alt=""
-                                        className="h-[350px] w-full object-contain sm:h-[450px]"
-                                    />
-                                </Link>
-                            </SplideSlide>
+                            <div key={item.id}>
+                                <SplideSlide>
+                                    <Link href="/pages/men/productdetails" className="block group motion-safe:hover:scale-110 ">
+                                        <Image width={500} height={500}
+                                            src={item.url}
+                                            alt=""
+                                            className="h-[350px] w-full object-contain sm:h-[450px]"
+                                        />
+                                    </Link>
+                                </SplideSlide>
+                            </div>
 
 
 
                         )
                     })}
-                   
 
-                    
+
+
 
 
 

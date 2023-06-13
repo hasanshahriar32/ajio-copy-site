@@ -8,6 +8,7 @@ const PrivateRoute = (Component) => {
         const router = useRouter();
         if (!auth?.user) {
             router.push('/pages/login')
+            return "Loading..."
         }
         return <Component auth={auth} {...props} />
     }
